@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+      <com.loopj.android.image.SmartImageView
+            android:id="@+id/smartimage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+      <RelativeLayout
+          android:id="@+id/RelativeLayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="10dp"
+          android:layout_marginTop="5dp"
+          android:background="#D6D6D6" >
+
+          <ImageButton
+              android:id="@+id/likebutton"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:layout_gravity="center"
+              android:layout_marginLeft="15dp"
+              android:background="@color/transparent"
+              android:src="@drawable/like" />
+
+          <ImageButton
+              android:id="@+id/imageButton2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:layout_marginRight="15dp"
+              android:layout_marginTop="5dp"
+              android:background="@color/transparent"
+              android:src="@drawable/flag" />
+
+          <ImageButton
+              android:id="@+id/donatebutton"
+              android:layout_width="50dp"
+              android:layout_height="48dp"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:background="@color/transparent"
+              android:scaleType="fitXY"
+              android:src="@drawable/logoedite" />
+      </RelativeLayout>
+
+      <TextView
+          android:id="@+id/pg_description"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:text="This darn streetlight be broken, yo&apos;!"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textColor="#665E61" />
+
+      <TextView
+          android:id="@+id/pg_tags"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="10dp"
+          android:text="#streetlight #broken #pleasefix #urgent"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+
+      <ImageView
+          android:id="@+id/broken_street_lamp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:scaleType="matrix"
+          android:src="@drawable/broken_street"
+          android:visibility="gone" />
+
+</LinearLayout>

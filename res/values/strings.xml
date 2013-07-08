@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">VivaCity</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_section1" translatable="false">My Profile</string>
+    <string name="title_section2" translatable="false">Problems</string>
+    <string name="title_section3" translatable="false">Map</string>
+    <color name="transparent">#0000</color>
+    <color name="blue">#2683C6</color>
+
+</resources>
